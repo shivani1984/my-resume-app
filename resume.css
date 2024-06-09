@@ -40,7 +40,7 @@ body {
   }
   .horizontal-list li a img{
       width: 20px; /* Set the width */
-    height: 20px; /* Set the height */
+    height: 20px/* Set the height */
       
   }
   
@@ -61,5 +61,23 @@ body {
       margin-top:5rem;
       margin-bottom:0.5rem;
       text-style:upper-case;
+  }
+
+  #my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -8rem;
+    
+  }
+
+  #my-image img {
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+    position: absolute;
+    
   }
   
