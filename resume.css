@@ -51,7 +51,7 @@ body {
   .horizontal-list li img{
       margin:1rem;
       
-      
+  
   }
   #name{
       color:white;
@@ -70,7 +70,7 @@ body {
     margin-top: -8rem;
     
   }
-
+/* about section*/
   #my-image img {
     height: 15rem;
     width: 15rem;
@@ -80,7 +80,7 @@ body {
     position: absolute;
     
   }
-  /* about section*/
+  
 
 
   #about p {
@@ -90,7 +90,7 @@ body {
   #about p span {
     color: #2857a4;
   }
-/* About Section*/
+
   section {
     display: flex;
     flex-direction: column;
@@ -103,6 +103,63 @@ section:nth-child(2n) {
 section:nth-child(2n + 1) {
   background-color: white;
 }
+ /*skill section*/
+ .skills-display{
+ 
+  width:75%;
+  padding:10px;
+  margin-bottom:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+ }
+ .skill-progress {
+  width: 11rem;
+  height: 2.2rem;
+  background-color: lightgrey;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+  margin: 25px;
+  overflow: hidden;
+}
+
+
+
+ .mb-blue {
+  background-color: #2857a4;
+  height: inherit;
+  width: 2%;
+
+}
+.skill-name span{
+  color:white;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  vertical-align: middle;
+
+}
+.mb-orange {
+  background-color: #ec4d1c;
+  height: inherit;
+  width: 85%;
+
+}
+.mb-teal{
+  background-color: #0b8176;
+  width:80%;
+  height:inherit;
+
+}
+
+.mb-purple{
+  background-color: #93738c;
+  width:10%;
+  height:inherit;
+
+}
+}
+
 
 
 
